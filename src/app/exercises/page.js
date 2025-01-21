@@ -1,11 +1,12 @@
-import Navbar from '../components/Navbar';
+
+import Navbar from '../components/NavBar';
 import styles from '../styles/ExercisesPage.module.css';
 
 const ExercisesPage = () => {
   return (
-    <div>
-      <Navbar />
-      <div className={styles.exercisesPage}>
+    <div className={styles.page}>
+      <Navbar/>
+      <div >
         <h1>Exercise Guide</h1>
         {/* Add content here */}
       </div>
