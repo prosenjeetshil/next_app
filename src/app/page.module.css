@@ -1,3 +1,27 @@
+.frontPage {
+  text-align: center;
+  padding: 50px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: #333;
+  padding: 10px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.navbar a:hover {
+  background-color: #575757;
+  border-radius: 5px;
+}
+
+
 .page {
   --gray-rgb: 0, 0, 0;
   --gray-alpha-200: rgba(var(--gray-rgb), 0.08);
@@ -48,9 +72,7 @@
   padding: 10px; /* Added padding */
   overflow: hidden; /* Ensure contents don't overflow */
   box-sizing: border-box; /* Ensures padding is included in the width and height */
-  
 }
-
 
 .main ol {
   font-family: var(--font-geist-mono);
