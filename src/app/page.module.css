@@ -3,8 +3,15 @@
   padding: 50px;
 }
 
+/* 
+background-image: url('/background.jpg');
+background-size: cover;
+background-position: center;  */
 
 .page {
+
+
+  background-color: #8174A0; /* Replace with your desired color */
   --gray-rgb: 0, 0, 0;
   --gray-alpha-200: rgba(var(--gray-rgb), 0.08);
   --gray-alpha-100: rgba(var(--gray-rgb), 0.05);
