@@ -15,4 +15,8 @@
     padding: 80px;
     gap: 64px;
     font-family: var(--font-geist-sans);
+
+    background-image: url("/bg2.jpg");
+    background-size: cover;
+    background-position: center;
   }
