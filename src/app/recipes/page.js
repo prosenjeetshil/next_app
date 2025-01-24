@@ -6,7 +6,7 @@ const RecipesPage = () => {
     <div className={styles.page}>
         <Navbar/>
       <div>
-        <h1>Diet Food Recipes</h1>
+        {/* <h1>Diet Food Recipes</h1> */}
         {/* Add content here */}
       </div>
     </div>

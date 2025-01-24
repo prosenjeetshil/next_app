@@ -7,7 +7,7 @@ const ExercisesPage = () => {
     <div className={styles.page}>
       <Navbar/>
       <div >
-        <h1>Exercise Guide</h1>
+        {/* <h1>Exercise Guide</h1> */}
         {/* Add content here */}
       </div>
     </div>

@@ -4,7 +4,7 @@
 }
 
 .page {
-  background-image: url("/bg1.jpg");
+  background-image: url("/bg1.png");
   background-size: cover;
   background-position: center;
   background-color: #8174a0; /* Replace with your desired color */
@@ -51,9 +51,9 @@
   width: 300px; /* Adjusted width */
   height: 520px;
   background-color: var(--gray-alpha-100);
-  border: 1px solid var(--gray-alpha-200);
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* border: 1px solid var(--gray-alpha-200);
+  border-radius: 8px; */
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
   padding: 10px; /* Added padding */
   overflow: hidden; /* Ensure contents don't overflow */
   box-sizing: border-box; /* Ensures padding is included in the width and height */
