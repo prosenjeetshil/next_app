@@ -7,7 +7,7 @@
   background-image: url("/bg1.png");
   background-size: cover;
   background-position: center;
-  background-color: #8174a0; /* Replace with your desired color */
+  /* background-color: #8174a0;  */
   --gray-rgb: 0, 0, 0;
   --gray-alpha-200: rgba(var(--gray-rgb), 0.08);
   --gray-alpha-100: rgba(var(--gray-rgb), 0.05);
@@ -188,3 +188,4 @@ a.secondary {
     filter: invert();
   }
 }
+
