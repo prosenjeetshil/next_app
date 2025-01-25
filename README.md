@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Diet Advisor Chatbot
 
-## Getting Started
+The "Personal Diet Advisor Chatbot" is a website that leverages OpenAI to create personalized diet and exercise plans. The AI-powered chatbot provides users with customized meal plans, exercise routines, and healthy food recipes. It serves as a comprehensive wellness assistant to help users achieve their fitness goals effectively. This project demonstrates my skills in integrating AI with web development to offer valuable health solutions.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Project Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Homepage / Chatbot 
+![Homepage](/public/chatbot.png)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Recipes
+![Diet Food Recipes](/public/recipes.png)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Exercises
+![Exercises](/public/exercises.png)
 
-## Learn More
+### Live Demo  
+[![Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge&logo=vercel)](https://personal-diet-advisor-chatbot.vercel.app/)  
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Installation Instructions
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Follow these steps to install and run the project on your local machine:
 
-## Deploy on Vercel
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/your-username/mental-health-chatbot.git
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. **Navigate to the Project Directory**
+   ```bash
+   cd mental-health-chatbot
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3. **Get the OpenAI API Key**
+   Visit [AIMLAPI.com](https://aimlapi.com) to obtain your OpenAI API key. This key is required to enable the chatbot's core functionalities.
+
+4. **Install Dependencies**
+   Make sure you have [Node.js](https://nodejs.org/) installed. Then, run the following command to install the required dependencies:
+   ```bash
+   npm install
+   ```
+
+5. **Run the Development Server**
+   Start the development server with the following command:
+   ```bash
+   npm run dev
+   ```
+
+6. **Access the Application**
+   Open your browser and navigate to:
+   ```
+   http://localhost:3000
+   ```
+
+---
