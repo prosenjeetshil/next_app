@@ -1,3 +1,4 @@
+"use client";
 import * as React from "react"
 import Chatbot from 'react-chatbot-kit'
 import ActionProvider from '../ActionProvider'
