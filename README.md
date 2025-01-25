@@ -26,12 +26,12 @@ Follow these steps to install and run the project on your local machine:
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/mental-health-chatbot.git
+   https://github.com/prosenjeetshil/personal-diet-advisor-chatbot
    ```
 
 2. **Navigate to the Project Directory**
    ```bash
-   cd mental-health-chatbot
+   cd personal-diet-advisor-chatbot
    ```
 
 3. **Get the OpenAI API Key**
