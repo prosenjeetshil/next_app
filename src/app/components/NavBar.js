@@ -31,6 +31,19 @@ const Navbar = () => {
 
           {/* Navigation Links */}
           <div style={{ display: "flex", gap: "20px" }}>
+          <a
+              href="/"
+              style={{
+                textDecoration: "none",
+                color: "#333",
+                fontWeight: "500",
+                transition: "color 0.2s",
+              }}
+              onMouseOver={(e) => (e.target.style.color = "#F4FFC3")}
+              onMouseOut={(e) => (e.target.style.color = "#333")}
+            >
+              Home
+            </a>
             <a
               href="/recipes"
               style={{
@@ -57,7 +70,7 @@ const Navbar = () => {
             >
               Exercises
             </a>
-            <a
+            {/* <a
               href="#contact"
               style={{
                 textDecoration: "none",
@@ -69,7 +82,7 @@ const Navbar = () => {
               onMouseOut={(e) => (e.target.style.color = "#333")}
             >
               Contact
-            </a>
+            </a> */}
           </div>
         </div>
       </>

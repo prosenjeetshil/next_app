@@ -1,6 +1,12 @@
 .frontPage {
-  text-align: center;
-  padding: 50px;
+  height: 100vh; /* Full viewport height */
+  width: 100%; /* Full width */
+  font-family: 'Montserrat', sans-serif; /* Global font */
+  display: flex; /* Use flexbox for alignment */
+  flex-direction: column; /* Stack items vertically */
+  justify-content: flex-end; /* Align items at the bottom */
+  align-items: center; /* Center horizontally */
+  padding-bottom: 10%; /* Space from the bottom */
 }
 
 .page {
