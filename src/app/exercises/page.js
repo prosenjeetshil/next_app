@@ -1,4 +1,4 @@
-
+"use client";
 import Navbar from '../components/NavBar';
 import styles from '../styles/ExercisesPage.module.css';
 
